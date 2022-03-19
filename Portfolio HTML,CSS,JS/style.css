@@ -5,6 +5,8 @@
 
 body {
   background-color: #ffffff;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
  /* Applying CSS to sphere */
@@ -25,18 +27,18 @@ body {
 
 .container
 {
-    padding: 3em;
+    padding: 1em;
     display: grid;
     grid-gap: 1em;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .asciiPicture img{
   /* width: 360px; */
-  min-width: 300px;
-  max-width: 600px;
+  min-width: 280px;
+  max-width: 500px;
   height: auto;
-
+  
 }
 
 .quote
@@ -50,13 +52,20 @@ span
     position: relative;
     margin-left: 15px;
 }
-.titleCard{
-  margin-left: 50%;
+.titleCard h2{
   width: auto;
-  padding-top: 1em;
-  padding-left: 3em;
+  padding-top: 0;
   border-radius: 1em;
   text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+}
+.aboutMeTitle h2{
+  margin-left: 1%;
+  width: auto;
+  padding-top: 0;
+  border-radius: 1em;
+  text-align: right;
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
 }
@@ -67,3 +76,7 @@ span
   border-radius: 1em;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
 }
+.asciidiv{
+  padding-left: 15%;
+}
+

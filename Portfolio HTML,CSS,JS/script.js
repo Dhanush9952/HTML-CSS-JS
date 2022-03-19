@@ -1,5 +1,5 @@
 const Texts = [
-    'HTML', 'CSS', 'JAVASCRIPT',
+    '<HTML>', 'CSS{}', 'JAVASCRIPT',
     'TYPESCRIPT', 'ASP.NET', 'ANGULAR',
     '.NET CORE', 'MATERIAL',
     'BLENDER', 'NODEJS', 'API','BOOTSTRAP',
